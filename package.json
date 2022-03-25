@@ -1,0 +1,23 @@
+{
+  "name": "boterino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "github": "^14.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.12",
+    "node": "^17.4.0",
+    "wokcommands": "^1.5.3"
+  }
+}
