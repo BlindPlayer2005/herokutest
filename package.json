@@ -1,23 +1,35 @@
 {
-  "name": "boterino",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^13.6.0",
-    "dotenv": "^10.0.0",
-    "fs": "^0.0.1-security",
-    "github": "^14.0.0",
-    "moment": "^2.29.1",
-    "mongoose": "^6.0.12",
-    "node": "^17.4.0",
-    "wokcommands": "^1.5.3"
+    "name": "blindbot",
+    "version": "1.0.0",
+    "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+    "main": "index.js",
+    "engines": {
+      "node": "17.8.0",
+      "npm": "8.5.5"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BlindPlayer2005/herokutest.git"
+    },
+    "keywords": [
+      "heroku",
+      "discord.js"
+    ],
+    "author": "Blind_Player",
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {  
+        "discord.js": "^13.6.0",
+        "dotenv": "^10.0.0",
+        "fs": "^0.0.1-security",
+        "github": "^14.0.0",
+        "moment": "^2.29.1",
+        "mongoose": "^6.0.12",
+        "node": "^17.4.0",
+        "wokcommands": "^1.5.3"
+    }
   }
-}
